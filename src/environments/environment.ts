@@ -4,5 +4,9 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  contentful: {
+    spaceId: 'zlqysb17rukh',
+    token: '05f5398731944b02b10b8f37053249a92cadca33ab61e9ade838d83bac6d6b8b'
+  }
 };

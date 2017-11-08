@@ -3,16 +3,19 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ContentfulService } from './contentful.service';
+import { MdToHtmlPipe } from './md-to-html.pipe';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MdToHtmlPipe
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [ContentfulService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
